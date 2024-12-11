@@ -290,6 +290,9 @@ background_image = pg.image.load('../SpaceShooter/sprites/galaxybackground.jpg')
 fuel = pg.image.load('../SpaceShooter/sprites/fuel.png').convert_alpha()
 fuel = pg.transform.rotozoom( fuel,0,1.3)
 
+icon = pg.image.load('../SpaceShooter/sprites/ship.png')
+pg.display.set_icon(icon)
+
 #FONT
 font = pg.font.Font('../SpaceShooter/orbitron.ttf',50)
 
